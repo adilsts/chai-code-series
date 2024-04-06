@@ -55,3 +55,20 @@ console.log(tinderUser);
 
 console.log(Object.keys(tinderUser));
 
+//------------------------------------------------------
+const course = {
+    coursename : "Maths",
+    price : "999",
+    courseinstructor : "Shahid"
+}
+
+// course.courseinstructor
+const {courseinstructor:instructur} = course
+console.log(instructur)
+
+
+// const navbar = (company) => {
+
+// }
+
+// navbar(company = "zubair");
